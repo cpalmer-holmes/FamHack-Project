@@ -1,20 +1,33 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# FamHack_Project
+Members : Cian P.H, Ridhima M, Cristiana M
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/d06ca9d4-c9ad-4d8e-98ef-cbe3c4126e68
-
-## Run Locally
-
-**Prerequisites:**  Node.js
+Date : 28 / March / 2026
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Introduction ### 
+
+---
+
+CompSoc is one of the biggest technological societies out there, there are many Special Interest Groups within the society such as SIG INT.
+The society has opportunities for all years of study, and also for companies looking into bright students. 
+There are several problems within the society right now, such as;
+
+● Sponsors and partners being difficult to showcase meaningfully
+
+● Discord communities being hard to navigate for first-years
+
+● Collecting feedback at scale is very hard
+
+Our group will try to come up with a solution for the last issue. 
+
+### Aim ###
+
+---
+Our team focused on encouraging engagement with CompSoc. 
+Through giving feedback and attending events, the user will earn XP. 
+The XP can then be used onto items or enhancing stats such as intelligence and strength, leading to a
+completely personalised experience . The RPG format is meant to create adictive gameplay for the user, 
+hopefully compelling them to attend more organised schemes. After each event attended by the user, they also get achievements.
+
+The user also has the chance to allign themselves with their 
+SIG within the society as a 'guild', which will be displayed onto their profile.  
