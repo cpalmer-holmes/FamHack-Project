@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-rpg-bg: #0f172a;
+  --color-rpg-card: #1e293b;
+  --color-rpg-accent: #2596be;
+  --color-rpg-red: #CC3333;
+  --color-rpg-gold: #fbbf24;
+  --color-rpg-border: #334155;
+}
+
+@layer base {
+  body {
+    @apply bg-rpg-bg text-slate-100 font-sans antialiased;
+    color-scheme: dark;
+  }
+}
+
+.rpg-panel {
+  @apply bg-rpg-card border border-rpg-border rounded-xl shadow-lg;
+}
+
+.rpg-button {
+  @apply px-4 py-2 bg-rpg-accent/20 border border-rpg-accent/40 text-rpg-accent hover:bg-rpg-accent/30 transition-all rounded-lg font-medium;
+}
+
+.stat-label {
+  @apply text-xs uppercase tracking-widest text-slate-400 font-mono;
+}
+
