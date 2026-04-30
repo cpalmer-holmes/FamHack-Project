@@ -31,3 +31,20 @@ hopefully compelling them to attend more organised schemes. After each event att
 
 The user also has the chance to allign themselves with their 
 SIG within the society as a 'guild', which will be displayed onto their profile.  
+
+## Prerequisites and Setup
+
+- **Node.js** (v18 or later) – [Download](https://nodejs.org/)
+- **npm** (comes with Node.js)
+
+After installing Node.js, open a terminal and verify:
+```bash
+node --version
+npm --version
+
+git clone https://github.com/cpalmer-holmes/FamHack-Project.git
+cd FamHack-Project
+
+npm install
+
+npm run dev
